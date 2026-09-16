@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-09-15T21:21:21+08:00",
+  "access": [
+    {
+      "tool": "Sorftime shopee_product_search_from_name",
+      "arguments": {
+        "name": "travel organizer",
+        "site": "PH",
+        "page": 1
+      },
+      "result": "MCP使用次数已达到上限，请升级您的套餐",
+      "effect": "只调用一次；无新增市场数据"
+    },
+    {
+      "tool": "web open",
+      "urls": [
+        "https://detail.1688.com/offer/847068328975.html",
+        "https://detail.1688.com/offer/625255182969.html"
+      ],
+      "result": "不可读取"
+    },
+    {
+      "tool": "browser",
+      "url": "https://detail.1688.com/offer/847068328975.html",
+      "result": "站点安全策略阻止；无自动审批尝试；未绕过"
+    }
+  ],
+  "readable_public_sources": [
+    "https://psa.gov.ph/system/files/sad/Press%20Release_2025%20PDESA_0.pdf",
+    "https://psa.gov.ph/sites/default/files/infographics/Infographic_2025%20PDESA.pdf",
+    "https://help.shopee.ph/portal/4/article/77276",
+    "https://bps.dti.gov.ph/product-certification/list-of-products-under-mandatory-certification",
+    "https://help.shopee.ph/portal/4/article/77272",
+    "https://www.sec.gov/Archives/edgar/data/1703399/000119312526344596/d120948dex991.htm",
+    "https://www.fda.gov.ph/information-education-and-communication-iec-materials-relative-to-the-licensing-of-household-urban-hazardous-substances-huhs-establishments-covered-under-administrative-order-no-2019-0019-and-fd/",
+    "https://shopee.ph/paccube"
+  ],
+  "new_verified_sku_quotes": 0,
+  "new_eligible_candidates": 0
+}

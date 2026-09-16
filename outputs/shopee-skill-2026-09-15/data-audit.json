@@ -1,0 +1,13 @@
+{
+  "market_rows": 220,
+  "distinct_market_products": 196,
+  "epoch_sales_date": 220,
+  "negative_sales": 0,
+  "supplier_rows": 600,
+  "zero_supplier_prices": 417,
+  "candidates": 22,
+  "candidates_with_supplier_lead": 6,
+  "valid_market_rows_for_release": 0,
+  "eligible_candidates": 0,
+  "real_profit_verified": 0
+}
