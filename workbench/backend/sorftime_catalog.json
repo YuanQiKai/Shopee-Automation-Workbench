@@ -1,0 +1,924 @@
+{
+  "source": "Sorftime MCP tool declarations exposed to this session; official documentation URL https://open.sorftime.com/mcp",
+  "capturedAt": "2026-09-09",
+  "tools": [
+    {
+      "name": "ali1688_category_tree",
+      "description": "Query the product category structure on the 1688 platform.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "node_id": {
+            "type": "string",
+            "description": "Optional: if specified, returns the child categories of this node_id; if not specified, returns the top-level and second-level categories. Data type: string."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ali1688_product_request",
+      "description": "Query the product details on the 1688 platform.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "description": "The product ID to be queried."
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ali1688_product_search",
+      "description": "Search product information on the 1688 platform across multiple dimensions.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "cumulative_sale_count_max": {
+            "type": "number",
+            "description": "Filter products with cumulative sales volume less than or equal to this value."
+          },
+          "cumulative_sale_count_min": {
+            "type": "number",
+            "description": "Filter products with cumulative sales volume greater than or equal to this value."
+          },
+          "dropshipping_price_range_max": {
+            "type": "number",
+            "description": "Filter products with selling price less than or equal to this value."
+          },
+          "dropshipping_price_range_min": {
+            "type": "number",
+            "description": "Filter products with selling price greater than or equal to this value."
+          },
+          "node_id": {
+            "type": "string",
+            "description": "Query based on a category (not limited to leaf categories); if specified, search within that category."
+          },
+          "online_date_range_max": {
+            "type": "string",
+            "description": "Filter products by listing end date, date format yyyy-MM-dd."
+          },
+          "online_date_range_min": {
+            "type": "string",
+            "description": "Filter products by listing start date, date format yyyy-MM-dd."
+          },
+          "page": {
+            "type": "number",
+            "description": "Which page of data to query, defaults to page 1."
+          },
+          "recent_30_day_sale_max": {
+            "type": "number",
+            "description": "Filter products with sales quantity in the last 30 days less than or equal to this value."
+          },
+          "recent_30_day_sale_min": {
+            "type": "number",
+            "description": "Filter products with sales quantity in the last 30 days greater than or equal to this value."
+          },
+          "repurchase_rate_max": {
+            "type": "number",
+            "description": "Filter products with repurchase rate less than or equal to this value."
+          },
+          "repurchase_rate_min": {
+            "type": "number",
+            "description": "Filter products with repurchase rate greater than or equal to this value."
+          },
+          "rights": {
+            "type": "string",
+            "description": "Filter by rights/benefits. Multiple choice, comma-separated, e.g. \"1,2,3\". 1: 7-day free return, 2: free shipping insurance, 3: ship within 48 hours."
+          },
+          "service_score_max": {
+            "type": "number",
+            "description": "Filter products with overall service score less than or equal to this value."
+          },
+          "service_score_min": {
+            "type": "number",
+            "description": "Filter products with overall service score greater than or equal to this value."
+          },
+          "sku_count_max": {
+            "type": "number",
+            "description": "Filter products with SKU count less than or equal to this value."
+          },
+          "sku_count_min": {
+            "type": "number",
+            "description": "Filter products with SKU count greater than or equal to this value."
+          },
+          "stock_count_max": {
+            "type": "number",
+            "description": "Filter products with stock count less than or equal to this value."
+          },
+          "stock_count_min": {
+            "type": "number",
+            "description": "Filter products with stock count greater than or equal to this value."
+          },
+          "supplier_member_type": {
+            "type": "number",
+            "description": "Filter by supplier member type, single choice. 1: Deep certified, 2: Non-deep certified."
+          },
+          "supplier_name": {
+            "type": "string",
+            "description": "Fuzzy-match products by supplier name."
+          },
+          "supplier_type": {
+            "type": "number",
+            "description": "Filter by supplier type, single choice. 1: Powerful merchant, 2: Super factory."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ali1688_product_search_from_image",
+      "description": "Search products on the 1688 platform by image.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "image_url": {
+            "type": "string",
+            "description": "Image URL, required. Must pass a web image URL, and the image size must not exceed 1MB."
+          },
+          "page": {
+            "type": "number",
+            "description": "Which page of data to query, defaults to page 1."
+          }
+        },
+        "required": [
+          "image_url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ali1688_product_variations",
+      "description": "Find the variation (SKU) data of a product on the 1688 platform by product ID.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "description": "The product ID to be queried."
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ali1688_similar_product",
+      "description": "Find sourcing/wholesale suppliers for a product on the 1688 platform. Can be used to analyze the procurement cost price of a product.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "number",
+            "description": "The page index of the query result. Defaults to page 1. Each page returns 20 records."
+          },
+          "search_name": {
+            "type": "string",
+            "description": "The product name to search for."
+          }
+        },
+        "required": [
+          "search_name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_category_request",
+      "description": "Query Best Seller products under a Shopee category. Optional queryDate for historical review (only sub-categories supported).",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "node_id": {
+            "type": "string",
+            "description": "The category ID to look up."
+          },
+          "page": {
+            "type": "number",
+            "description": "The page index of the query result. Defaults to page 1. Each page returns 20 records."
+          },
+          "query_date": {
+            "type": "string",
+            "description": "Optional, format yyyy-MM-dd. If specified, used to query historical data for the natural week containing the date (only sub-categories support historical review; for non-sub-categories this parameter is invalid)."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "node_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_category_search_from_name",
+      "description": "Search related category markets on Shopee by name. Used to obtain category node IDs and category names.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The category name to search for."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_category_tree",
+      "description": "Query the product category structure on the Shopee platform.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "node_id": {
+            "type": "string",
+            "description": "Optional: if specified, returns the child categories of this node_id; if not specified, returns the top-level and second-level categories. Data type: string."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_category_trend",
+      "description": "Used to query the historical trend of a Shopee category market. Each call returns one trend dimension; select the trendIndex enum accordingly.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "node_id": {
+            "type": "string",
+            "description": "The category node ID to query."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          },
+          "trend_index": {
+            "type": "string",
+            "description": "The historical trend type to query.",
+            "enum": [
+              "MonthlySalesVolume",
+              "MonthlySalesAmount",
+              "AveragePrice",
+              "AverageReviewCount",
+              "AverageStarRating",
+              "SellerCount",
+              "AverageVariantCount",
+              "BrandCount",
+              "FlagshipStoreCount",
+              "FlagshipStoreRatio",
+              "FlagshipStoreMonthlySales",
+              "FlagshipStoreMonthlySalesRatio",
+              "PreferredStoreCount",
+              "PreferredStoreRatio",
+              "PreferredStoreMonthlySales",
+              "PreferredStoreMonthlySalesRatio",
+              "OrdinaryStoreCount",
+              "OrdinaryStoreRatio",
+              "OrdinaryStoreMonthlySales",
+              "OrdinaryStoreMonthlySalesRatio",
+              "Listed1MonthProductCount",
+              "Listed1MonthProductCountRatio",
+              "Listed1MonthSalesVolume",
+              "Listed1MonthSalesVolumeRatio",
+              "Listed1MonthSalesAmount",
+              "Listed1MonthSalesAmountRatio",
+              "Listed1MonthAvgStarRating",
+              "Listed1MonthAvgReviewCount",
+              "Listed1MonthAvgPrice",
+              "Listed3MonthProductCount",
+              "Listed3MonthProductCountRatio",
+              "Listed3MonthSalesVolume",
+              "Listed3MonthSalesVolumeRatio",
+              "Listed3MonthSalesAmount",
+              "Listed3MonthSalesAmountRatio",
+              "Listed3MonthAvgStarRating",
+              "Listed3MonthAvgReviewCount",
+              "Listed3MonthAvgPrice",
+              "Listed6MonthProductCount",
+              "Listed6MonthProductCountRatio",
+              "Listed6MonthSalesVolume",
+              "Listed6MonthSalesVolumeRatio",
+              "Listed6MonthSalesAmount",
+              "Listed6MonthSalesAmountRatio",
+              "Listed6MonthAvgStarRating",
+              "Listed6MonthAvgReviewCount",
+              "Listed6MonthAvgPrice",
+              "Listed12MonthProductCount",
+              "Listed12MonthProductCountRatio",
+              "Listed12MonthSalesVolume",
+              "Listed12MonthSalesVolumeRatio",
+              "Listed12MonthSalesAmount",
+              "Listed12MonthSalesAmountRatio",
+              "Listed12MonthAvgStarRating",
+              "Listed12MonthAvgReviewCount",
+              "Listed12MonthAvgPrice",
+              "Listed24MonthProductCount",
+              "Listed24MonthProductCountRatio",
+              "Listed24MonthSalesVolume",
+              "Listed24MonthSalesVolumeRatio",
+              "Listed24MonthSalesAmount",
+              "Listed24MonthSalesAmountRatio",
+              "Listed24MonthAvgStarRating",
+              "Listed24MonthAvgReviewCount",
+              "Listed24MonthAvgPrice",
+              "Top3ProductSalesVolumeRatio",
+              "Top3ProductSalesAmountRatio",
+              "Top3SellerSalesVolumeRatio",
+              "Top3SellerSalesAmountRatio",
+              "Top5ProductSalesVolumeRatio",
+              "Top5ProductSalesAmountRatio",
+              "Top5SellerSalesVolumeRatio",
+              "Top5SellerSalesAmountRatio",
+              "Top10ProductSalesVolumeRatio",
+              "Top10ProductSalesAmountRatio",
+              "Top10SellerSalesVolumeRatio",
+              "Top10SellerSalesAmountRatio"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_change_favorite_keyword",
+      "description": "Move a favorited keyword on the Shopee platform to a specified dict (auto-created if it does not exist).",
+      "mutating": true,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "from_dict": {
+            "type": "string",
+            "description": "Optional. If specified, only move the keyword from this source dict."
+          },
+          "keyword": {
+            "type": "string",
+            "description": "The keyword to move."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          },
+          "to_dict": {
+            "type": "string",
+            "description": "The destination dict name."
+          }
+        },
+        "required": [
+          "keyword",
+          "to_dict"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_del_favorite_keyword",
+      "description": "Delete a specified keyword from my Shopee keyword favorites.",
+      "mutating": true,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dict": {
+            "type": "string",
+            "description": "Optional. If specified, delete the keyword from this dict only."
+          },
+          "keyword": {
+            "type": "string",
+            "description": "The keyword to delete."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "keyword"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_favorite_keyword",
+      "description": "Add a keyword to my Shopee keyword favorites. If the specified dict does not exist, it is created automatically.",
+      "mutating": true,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dict": {
+            "type": "string",
+            "description": "Optional. If specified, add the keyword to this favorites dict (auto-created if not exists)."
+          },
+          "keyword": {
+            "type": "string",
+            "description": "The keyword to favorite."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "keyword"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_get_favorite_keyword",
+      "description": "Query the favorited keywords in my Shopee keyword favorites. Specify `dict=all` to query every keyword across all dicts.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dict": {
+            "type": "string",
+            "description": "Optional. If specified, queries keywords under the given folder; pass `all` to query all keywords."
+          },
+          "page": {
+            "type": "number",
+            "description": "The page index of the query result. Defaults to page 1. Each page returns 100 records."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_get_favorite_keyword_dict",
+      "description": "Query the list of dicts (folders) in my Shopee keyword favorites.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "number",
+            "description": "The page index of the query result. Defaults to page 1. Each page returns 100 records."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_keyword_relation_results",
+      "description": "Search Shopee related products by keyword, returning up to 20 products per page.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "keyword": {
+            "type": "string",
+            "description": "The keyword to query (e.g. summer dress)."
+          },
+          "page": {
+            "type": "number",
+            "description": "The page index of the query result. Defaults to page 1. Each page returns 20 records."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_keyword_search",
+      "description": "The list of trending keywords on Shopee, sorted by monthly search volume by default.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "keyword": {
+            "type": "string",
+            "description": "Optional. The keyword to query (e.g. summer dress). When provided, the search is keyword-specific; otherwise it returns the trending list."
+          },
+          "page": {
+            "type": "number",
+            "description": "Optional. Page index, defaults to page 1. Each page returns 20 records."
+          },
+          "rank_max": {
+            "type": "number",
+            "description": "Optional. Filter by maximum monthly rank."
+          },
+          "rank_min": {
+            "type": "number",
+            "description": "Optional. Filter by minimum monthly rank."
+          },
+          "search_volume_max": {
+            "type": "number",
+            "description": "Optional. Filter by maximum monthly search volume."
+          },
+          "search_volume_min": {
+            "type": "number",
+            "description": "Optional. Filter by minimum monthly search volume."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_product_request",
+      "description": "Query detailed information of a Shopee product.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "description": "The product ID to query."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_product_search",
+      "description": "Search product data on the Shopee platform with multi-dimensional filters, sorted by monthly sales volume descending.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "comment_count_range_max": {
+            "type": "number",
+            "description": "Optional. If specified: limit maximum comment count."
+          },
+          "comment_count_range_min": {
+            "type": "number",
+            "description": "Optional. If specified: limit minimum comment count."
+          },
+          "month_sale_volume_range_max": {
+            "type": "number",
+            "description": "Optional. If specified: limit maximum monthly sales volume (val <= setting value)."
+          },
+          "month_sale_volume_range_min": {
+            "type": "number",
+            "description": "Optional. If specified: limit minimum monthly sales volume (val >= setting value)."
+          },
+          "node_id": {
+            "type": "string",
+            "description": "Optional. If specified: query within a category (not limited to sub-categories)."
+          },
+          "online_date_range_max": {
+            "type": "string",
+            "description": "Optional. If specified: limit listing end date (yyyy-MM-dd)."
+          },
+          "online_date_range_min": {
+            "type": "string",
+            "description": "Optional. If specified: limit listing start date (yyyy-MM-dd)."
+          },
+          "page": {
+            "type": "number",
+            "description": "Page query, max 20 products per page. Defaults to 1 (pages start from 1, not 0)."
+          },
+          "price_range_max": {
+            "type": "number",
+            "description": "Optional. If specified: limit maximum selling price (val <= setting value)."
+          },
+          "price_range_min": {
+            "type": "number",
+            "description": "Optional. If specified: limit minimum selling price (val >= setting value)."
+          },
+          "shop_location": {
+            "type": "number",
+            "description": "Optional. Shop location type: 1 = local store, 2 = cross-border store."
+          },
+          "shop_type": {
+            "type": "number",
+            "description": "Optional. Shop type: 1 = ordinary store, 2 = preferred store, 3 = flagship store."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          },
+          "star_range_max": {
+            "type": "number",
+            "description": "Optional. If specified: limit maximum star rating."
+          },
+          "star_range_min": {
+            "type": "number",
+            "description": "Optional. If specified: limit minimum star rating."
+          },
+          "variation_count_range_max": {
+            "type": "number",
+            "description": "Optional. If specified: limit maximum variation count."
+          },
+          "variation_count_range_min": {
+            "type": "number",
+            "description": "Optional. If specified: limit minimum variation count."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_product_search_from_name",
+      "description": "Search related products on Shopee by name, returning up to 20 products each call.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The product name keyword to search for."
+          },
+          "page": {
+            "type": "number",
+            "description": "Page index, defaults to page 1."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_product_trend",
+      "description": "Supports historical trends across five dimensions: star rating, comment count, price, cumulative sales, and last-30-day sales.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "description": "The product ID to query."
+          },
+          "query_end": {
+            "type": "string",
+            "description": "Optional. Query end time (yyyy-MM-dd). Defaults to the current time."
+          },
+          "query_start": {
+            "type": "string",
+            "description": "Optional. Query start time (yyyy-MM-dd). Default last 1 year. When span > 1 year, each call consumes 10 credits."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "shopee_shop_request",
+      "description": "Query Shopee seller (shop) details. Returns basic information and a Top500 snapshot of the shop's products.",
+      "mutating": false,
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "shop_id": {
+            "type": "string",
+            "description": "The shop ID to query."
+          },
+          "site": {
+            "type": "string",
+            "description": "Shopee site.",
+            "enum": [
+              "Unknown",
+              "VN",
+              "ID",
+              "SG",
+              "TH",
+              "MY",
+              "TW",
+              "PH",
+              "BR"
+            ]
+          }
+        },
+        "required": [
+          "shop_id"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ]
+}

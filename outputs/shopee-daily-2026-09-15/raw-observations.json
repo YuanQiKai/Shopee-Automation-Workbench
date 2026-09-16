@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-15",
+  "site": "PH",
+  "queries": [
+    {
+      "index": 1,
+      "tool": "shopee_product_search_from_name",
+      "args": {
+        "site": "PH",
+        "name": "garment storage bag",
+        "page": 1
+      },
+      "attemptedAt": "2026-09-15T12:01:14.160Z",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "MCP使用次数已达到上限，请升级您的套餐"
+          }
+        ],
+        "isError": true
+      },
+      "finishedAt": "2026-09-15T12:01:22.163Z"
+    }
+  ]
+}

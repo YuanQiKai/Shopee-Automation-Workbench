@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-15",
+  "triggeredAt": "2026-09-15T01:01:22.195Z",
+  "status": "early_trigger_schedule_corrected",
+  "scheduledLocalBefore": "09:00 Asia/Shanghai",
+  "scheduledLocalAfter": "20:00 Asia/Shanghai",
+  "automationId": "shopee",
+  "verifiedAt": "2026-09-15T01:03:28.360Z",
+  "dailySelectionCompleted": false,
+  "queryAttempts": 0,
+  "successfulQueries": 0,
+  "newCandidatesThisRun": 0,
+  "completeEvidenceThisRun": 0,
+  "publishedThisRun": 0,
+  "previousSourceError": {
+    "date": "2026-09-14",
+    "status": "source_quota_exhausted",
+    "checkedAgain": false
+  },
+  "history": [
+    {
+      "file": "outputs\\shopee-daily-2026-09-11\\candidates.json",
+      "count": 10,
+      "ids": [
+        "20569033063",
+        "25525886150",
+        "16595257849",
+        "25305669141",
+        "27810028091",
+        "28740303369",
+        "12536138081",
+        "43306697837",
+        "25286970958",
+        "22135470144"
+      ]
+    },
+    {
+      "file": "outputs\\shopee-daily-2026-09-14\\candidates.json",
+      "count": 0,
+      "ids": []
+    },
+    {
+      "file": "outputs\\shopee-plan-2026-09-10\\candidates.json",
+      "count": 12,
+      "ids": [
+        "27528479375",
+        "14529056693",
+        "24944345450",
+        "25544554587",
+        "6185455937",
+        "26901266092",
+        "24474649589",
+        "27308021764",
+        "14488134409",
+        "15750813899",
+        "19694647631",
+        "41276257375"
+      ]
+    }
+  ],
+  "reason": "本次早于用户确认的20:00。当前存储计划仍为09:00，已通过应用更新为20:00并回读确认；不推断此前配置回退原因。",
+  "nextStep": "到20:00再执行当日调研；最多一次正常查询核对数据源是否恢复，持续额度错误则停止，不更换凭据、不充值。"
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "path": "workbench/.gitignore",
+    "sha256": "ff997873262738e01483d4b2f5c97ea3f4582defb2e70b707cd0b1af608c7716"
+  },
+  {
+    "path": "workbench/使用说明.md",
+    "sha256": "7dc0d5a09d547bcfb46ab7c8680259f4d774e2d6e01e9e1f0b94d6eccdb2743d"
+  },
+  {
+    "path": "workbench/启动工作台.cmd",
+    "sha256": "fc3ec6cf03d51fbc63da39fe32ceffbf2e27e37d9e08ab4859a904b82e55505e"
+  },
+  {
+    "path": "workbench/启动工作台.ps1",
+    "sha256": "8f830b3a626bc9d8a24f5a68d7f704ace97a582eb4c0b740bed72883a1cb4ec5"
+  },
+  {
+    "path": "workbench/backend/app.py",
+    "sha256": "5a225242b6d9c39ed72a7b6cc86c9476e68e5f72115c36dc4a057a89b1161d76"
+  },
+  {
+    "path": "workbench/backend/costs.py",
+    "sha256": "8aac44a5fd07d6004413fce4221f3903f9fc4d79ea7c79d389f18ad9f937f59d"
+  },
+  {
+    "path": "workbench/backend/db.py",
+    "sha256": "b7a7a7bc0727247de07a1c521061ab490e4be9989bc233af1ebc84edc79be5ee"
+  },
+  {
+    "path": "workbench/backend/domain.py",
+    "sha256": "882bdc324a57e0ef2275afbc28d5bda3b6a002016faa53f3c480ba2b5e867a09"
+  },
+  {
+    "path": "workbench/backend/export.py",
+    "sha256": "b9492825b17b32b7037595766ed498555eceae4ca4bcb546a0a5aaac9ffe7816"
+  },
+  {
+    "path": "workbench/backend/jobs.py",
+    "sha256": "b2e201b6d0a5e5e2c025ac0290670d338a682700b28195b3da2293090f67c127"
+  },
+  {
+    "path": "workbench/backend/market_checks.py",
+    "sha256": "119d8d8421fde555ee89078bd971bb09efcfb10448de5542cd28b89e412a47e2"
+  },
+  {
+    "path": "workbench/backend/providers.py",
+    "sha256": "42e77adb454406239c95617041337da404abc5860f48bc98fd30c2665abcb8b5"
+  },
+  {
+    "path": "workbench/backend/requirements.txt",
+    "sha256": "968e277b4e7f5d1743e6ddf93376797b97b615dd2cedb5b2c77dadebb364f686"
+  },
+  {
+    "path": "workbench/backend/selection_math.py",
+    "sha256": "a4fdb984c4ca0580a3afa0cfb977080f78c5a43e9604b4a412d18114e85e0e90"
+  },
+  {
+    "path": "workbench/backend/sorftime.py",
+    "sha256": "24482cfd7d23dc87de74fecd798774ac18c8818c77aa5063866713b26a2ae4f7"
+  },
+  {
+    "path": "workbench/backend/sorftime_catalog.json",
+    "sha256": "505315ad558ceb6e5ef7897374495d7caab94004b5bbe3f369e3c87408eef7c9"
+  },
+  {
+    "path": "workbench/backend/worker.py",
+    "sha256": "cc9f018f7afcde7d3810b08f3384c05be77b0f210c3ed2b1760591cc8d680476"
+  },
+  {
+    "path": "workbench/backend/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "workbench/data/default-settings.json",
+    "sha256": "87c0e4e0cada6d0007d8628e7fa070fc2f10fd7eb2bb1cc9f9ae9511bd09ab90"
+  },
+  {
+    "path": "workbench/data/legacy-selection.json",
+    "sha256": "30e4296a7a88097890cdd11f51d74d2ea2e8d4e1ed408f270d93e550dc07afce"
+  },
+  {
+    "path": "workbench/data/rules.json",
+    "sha256": "7873396c8bfa23f773a78f2908bfe06ebe958dd757dfd34db671140c0d45b195"
+  },
+  {
+    "path": "workbench/data/seed-candidates.json",
+    "sha256": "19ac3942f80bc4c27de7e615b2239dd6b37103908d1fb169b8cc98cb356f500d"
+  },
+  {
+    "path": "workbench/frontend/components.json",
+    "sha256": "d6549763ac7eac0e36d787bfa94fd649690f26d8630a9418bc5c651c6b808134"
+  },
+  {
+    "path": "workbench/frontend/next-env.d.ts",
+    "sha256": "1b59d4c6b83807db275d43f3cf2cc8e9323f465fab764eea091cc5becd5bad37"
+  },
+  {
+    "path": "workbench/frontend/next.config.ts",
+    "sha256": "2a96564f6163079d19aa4aebf1f9abbbd2fcf0d64d3909cf6f74620ffc785b28"
+  },
+  {
+    "path": "workbench/frontend/package.json",
+    "sha256": "56c729674134c17e668167b828ce6d4f6407037ecf46aa913a4421566e6bbfe0"
+  },
+  {
+    "path": "workbench/frontend/pnpm-lock.yaml",
+    "sha256": "75d925bd588f29210f67a29b7bb8a07ea703262feab78ac7844abcc4ee1b1562"
+  },
+  {
+    "path": "workbench/frontend/postcss.config.mjs",
+    "sha256": "cc8f514ba7fda07a2e2828670c99e34275f314b350628d8c2ab39e68e50bf9f8"
+  },
+  {
+    "path": "workbench/frontend/tsconfig.json",
+    "sha256": "775330cb19bf943f2036e459081094f7f6827d6ec24d440a25eea2ceb7a96d64"
+  },
+  {
+    "path": "workbench/scripts/final_package.py",
+    "sha256": "e29424a0c2416384bc63be2674f21758e323879ab41734d9fcbb00f06dd1d756"
+  },
+  {
+    "path": "workbench/scripts/final_verify.py",
+    "sha256": "f0961ce4234a71fffff3e643a1992c65fc28959db97b393035de88295af76262"
+  },
+  {
+    "path": "workbench/scripts/finish_data.py",
+    "sha256": "6472fe4d65e122d585995a81c9657d2c118c254c78371a9a010ceb1d05bba907"
+  },
+  {
+    "path": "workbench/scripts/fix_count.py",
+    "sha256": "56abbf9c2cb98f710140a5b4fe6aa819c6068e7b201f9367eae95121f07cb63f"
+  },
+  {
+    "path": "workbench/scripts/get_runtimes.py",
+    "sha256": "cab9c2af4fb4c1aea0237e71a5e259dca8db943e2066800ebb79d4592890cf24"
+  },
+  {
+    "path": "workbench/scripts/init_local.py",
+    "sha256": "7ab7a619ddc4ba07d474c56e518f86efca3c552518c01ceb1d9eb6ddd8eaf5d6"
+  },
+  {
+    "path": "workbench/scripts/inspect_sources.py",
+    "sha256": "12167a09f426f7aec16c5133b7c5a19471d634fb9fbc32ecd4a76bd26d415628"
+  },
+  {
+    "path": "workbench/scripts/package_skill.py",
+    "sha256": "881ec79022f7e8791bbe8002b8384e2b48eaf091799f84817ec35a4681092677"
+  },
+  {
+    "path": "workbench/scripts/persist_database.py",
+    "sha256": "7d802130589daef38c0eacb1e27c02324f969d15c9ad97b93c2c052b71d46383"
+  },
+  {
+    "path": "workbench/scripts/prepare_data.py",
+    "sha256": "e4abf4b9c17e4ff5c0348d3bf09b562fbc056daed70cbf3de6d8bbaf12216cb2"
+  },
+  {
+    "path": "workbench/scripts/read_warehouse.py",
+    "sha256": "3b7b84f1ddbebddb4c85a917f926ab36d31d9a71cb327ca5b4e53e72ba45539c"
+  },
+  {
+    "path": "workbench/scripts/refine_ui.py",
+    "sha256": "1aa648f114bb1f6b33d25c0e097da18cd2c9a078e77f75bcfb18ac4797205965"
+  },
+  {
+    "path": "workbench/scripts/restart_app.py",
+    "sha256": "2ab88525a6b223fc447108fae202b2cd5b66bfa707f418920fa8b986405bd29c"
+  },
+  {
+    "path": "workbench/scripts/start_local.py",
+    "sha256": "63422054b7c0b4e7dedff844d3a5a8ee31f9ce8f9cd17e7022d93f2819f3b4c3"
+  },
+  {
+    "path": "workbench/tests/test_api.py",
+    "sha256": "06405f8420285b5609f0dfacd73694207b7f78aee958eae02663d7f99a467b15"
+  },
+  {
+    "path": "workbench/tests/test_finance.py",
+    "sha256": "8bf97857cd80dacb8945f561f083ddffe3ff621a949848d2e36f140659f4bef7"
+  },
+  {
+    "path": "workbench/data/evidence/backup-variants-2026-09-15.json",
+    "sha256": "ea30d7a69fa878517899516bb63029b4b8b90368e141dd1b7f78028a52468538"
+  },
+  {
+    "path": "workbench/data/evidence/input-manifest.json",
+    "sha256": "d8ecf0edcbba74872b2c2f07d23b83a5df4a8bdb7c68f4c27cc4af570022c6a6"
+  },
+  {
+    "path": "workbench/data/evidence/logistics-manual-pages.json",
+    "sha256": "c5553578a3419a24320ddfe6cbca6824b23b256e4bed134f414aa72256e4dae5"
+  },
+  {
+    "path": "workbench/data/evidence/sea-ban-rows.json",
+    "sha256": "54dc20964a4a53dc208899d9738611bcbddbb3c056c8bdf524451b1d624114c5"
+  },
+  {
+    "path": "workbench/data/evidence/sls-workbook-rows.json",
+    "sha256": "ed971748d551d3ebf749b351febd6144a458542efff5fe63cc613f97d8796b6e"
+  },
+  {
+    "path": "workbench/data/evidence/sorftime-2026-09-15.json",
+    "sha256": "487a6cbcdbd589870acacd4d013a808f8cebe3b20e2a5f3b28bb918787178b7c"
+  },
+  {
+    "path": "workbench/data/evidence/sorftime-refresh-2026-09-15.json",
+    "sha256": "da115c4107b22d3e251e84ba0db4e94e9924da0af8870000aef321ec3730effb"
+  },
+  {
+    "path": "workbench/data/evidence/warehouse-documents.json",
+    "sha256": "dbed6bce69c9c3ee11992688cf93f9277b2d11bbb76b6fdf00717b982f2727e6"
+  },
+  {
+    "path": "workbench/frontend/app/globals.css",
+    "sha256": "5bf43e5fe5f9bd4923807448d134652d8d3be54dbaab6d71172eccb4fb8693ef"
+  },
+  {
+    "path": "workbench/frontend/app/layout.tsx",
+    "sha256": "57ded00ba5c38bc4ac38493d28ce0c11bc2d6d42e3d9c9fe4503d2f67551caa5"
+  },
+  {
+    "path": "workbench/frontend/app/page.tsx",
+    "sha256": "6167a00b6b430c7a882a59d5c860639f9c1ec18093277f6b983eb8a203e5148e"
+  },
+  {
+    "path": "workbench/frontend/lib/utils.ts",
+    "sha256": "597ad97cf5b437a460891cca6813bf439bf6fbc12d684ac19f6db4ff2990ffaf"
+  },
+  {
+    "path": "workbench/frontend/components/ui/button.tsx",
+    "sha256": "afc6c76570122fb874ae43d4e823eb4fa6c054d9587a7a6a973d6e6302105a8c"
+  },
+  {
+    "path": "workbench/frontend/components/ui/card.tsx",
+    "sha256": "4283090f4fd8383aa5133ab94cdad92b96a32e1db89b9c4c85c77357d006c7a7"
+  },
+  {
+    "path": "workbench/frontend/components/ui/input.tsx",
+    "sha256": "2cbf8b47b1bef60cf60a9c0e8eacff37b1d50c8f74490dea8d3239c48e5a8d9e"
+  }
+]

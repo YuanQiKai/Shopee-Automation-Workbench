@@ -1,0 +1,725 @@
+[
+  {
+    "rank": 1,
+    "name": "可重复使用粘扣理线带套装",
+    "priority": "优先补证",
+    "market_id": "20569033063",
+    "market_url": "https://shopee.ph/product/264585346/20569033063",
+    "market_title": "50 Pcs Reusable Cable Tie, Cable Management Tape, Cable Management Organizer with Hook and Loop Design",
+    "market_shop_id": "264585346",
+    "market_shop_type": "跨境店",
+    "observed_at": "2026-09-11T13:49:09.303Z",
+    "query_index": 4,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "50条套装为竞品标题规格；自有销售套数和尺寸待确认",
+    "verification_focus": "绑扎力度、反复开合、整套数量；不带胶、不宣称电气绝缘",
+    "price_raw": 100,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 149,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Deli",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": "https://detail.1688.com/offer/594370725177.html",
+    "supplier_hint": {
+      "id": "594370725177",
+      "name": "深圳市合众纺织品有限公司",
+      "title": "魔术贴理线带耳机充电源线数据线材收纳整理捆绑带魔术贴扎带自粘",
+      "price_from_cny": 0.03,
+      "moq_raw": 1,
+      "dropshipping_raw": true,
+      "stock_raw": 962632246,
+      "shipping_time_raw": "深圳市",
+      "sku_count": 38,
+      "observed_at": "2026-09-11T13:50:09.354Z"
+    },
+    "supply_match_status": "仅相似货源线索，未完成SKU匹配/可下单报价确认",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 2,
+    "name": "网眼拉链旅行收纳包",
+    "priority": "优先补证",
+    "market_id": "25525886150",
+    "market_url": "https://shopee.ph/product/1229056552/25525886150",
+    "market_title": "Travel Pouch Cosmetics Makeup Bag | Wash Toiletries Organizer | Mesh Net Mesh Cosmetic Storage Bag",
+    "market_shop_id": "1229056552",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:49:14.285Z",
+    "query_index": 5,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "网眼材质、拉链开合；长宽与单套数量待确认",
+    "verification_focus": "拉链、接缝、网眼耐磨；只售空包",
+    "price_raw": 44,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 677,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Chantria",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": "https://detail.1688.com/offer/965458977775.html",
+    "supplier_hint": {
+      "id": "965458977775",
+      "name": "义乌市鸿妙日用品有限公司",
+      "title": "网纱化妆包口红护肤品收纳卡包便携式迷你包小号数据线耳机收纳包",
+      "price_from_cny": 1.13,
+      "moq_raw": 1,
+      "dropshipping_raw": false,
+      "stock_raw": 0,
+      "shipping_time_raw": "义乌市",
+      "sku_count": 0,
+      "observed_at": "2026-09-11T13:50:02.734Z"
+    },
+    "supply_match_status": "仅相似货源线索，未完成SKU匹配/可下单报价确认",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 3,
+    "name": "五合一可折叠裤架",
+    "priority": "优先补证",
+    "market_id": "16595257849",
+    "market_url": "https://shopee.ph/product/998991383/16595257849",
+    "market_title": "Creative 5-in-1 Pants Hanger Stainless Steel Clothes Trouser Racks Closet Space Saving Organizer",
+    "market_shop_id": "998991383",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:48:29.510Z",
+    "query_index": 2,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "五杆折叠结构；材质、尺寸与包装重待确认",
+    "verification_focus": "杆件毛刺、负重与折叠连接处；先排除超过500g",
+    "price_raw": 69,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 3423,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Ecoco",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": "https://detail.1688.com/offer/732898036456.html",
+    "supplier_hint": {
+      "id": "732898036456",
+      "name": "潮州市潮安区皖创五金厂",
+      "title": "折叠裤架多层多功能裤子衣架家用魔术无痕裤夹衣柜收纳神器裤挂架",
+      "price_from_cny": 8.5,
+      "moq_raw": 1,
+      "dropshipping_raw": true,
+      "stock_raw": 9970367,
+      "shipping_time_raw": "潮州市",
+      "sku_count": 10,
+      "observed_at": "2026-09-11T13:49:55.019Z"
+    },
+    "supply_match_status": "仅相似货源线索，未完成SKU匹配/可下单报价确认",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 4,
+    "name": "双层线材旅行收纳包",
+    "priority": "补证队列",
+    "market_id": "25305669141",
+    "market_url": "https://shopee.ph/product/514999607/25305669141",
+    "market_title": "Double Layer Travel Organizer Portable Cable Storage Pouch Gadget Bag Waterproof COD",
+    "market_shop_id": "514999607",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:49:14.285Z",
+    "query_index": 5,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "双层空收纳包；不含电线、电源或其他带电配件",
+    "verification_focus": "分仓尺寸、拉链、空包净重；不可复制防水宣传",
+    "price_raw": 105,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 327,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "FULL DESIGN",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 5,
+    "name": "便携首饰分格收纳盒",
+    "priority": "补证队列",
+    "market_id": "27810028091",
+    "market_url": "https://shopee.ph/product/38727052/27810028091",
+    "market_title": "Portable Travel Jewellery Jewelry Earrings Ring Pendant Accessories Storage Box Organizer Case",
+    "market_shop_id": "38727052",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:49:14.285Z",
+    "query_index": 5,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "耳环、戒指及项链分格；盒体材质与尺寸待确认",
+    "verification_focus": "隔断固定、合页/拉链、防刮；不含首饰",
+    "price_raw": 136,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 415,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "St.kunkka",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 6,
+    "name": "门背免打孔挂钩架",
+    "priority": "补证队列",
+    "market_id": "28740303369",
+    "market_url": "https://shopee.ph/product/375375228/28740303369",
+    "market_title": "Drill Free Aluminum Door Hanger Door Rear Clothes Hanging Hook Bedroom Bathroom Organizer Rack",
+    "market_shop_id": "375375228",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:48:29.510Z",
+    "query_index": 2,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "挂门式结构；门厚、挂钩数量及材质待确认",
+    "verification_focus": "门缝适配、防刮垫、承重、计费重量；不用胶",
+    "price_raw": 169,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 826,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "--",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 7,
+    "name": "十夹式小件晾晒衣架",
+    "priority": "补证队列",
+    "market_id": "12536138081",
+    "market_url": "https://shopee.ph/product/370984810/12536138081",
+    "market_title": "Clothes Hanger with Clip / Sipitan 10clips Hanger hanger clip 1PCS HIGH QUALITY--A",
+    "market_shop_id": "370984810",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:48:29.510Z",
+    "query_index": 2,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "标题为单个10夹；实物夹数、尺寸、材质待确认",
+    "verification_focus": "夹力、夹齿毛刺、弹簧锈蚀和包装后重量",
+    "price_raw": 82,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 387,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Golden Eagle",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 8,
+    "name": "悬挂文件分袋整理袋",
+    "priority": "补证队列",
+    "market_id": "43306697837",
+    "market_url": "https://shopee.ph/product/1344635572/43306697837",
+    "market_title": "Hanging Wall File Organizer for Documents Paper  Underwear Storage Use in Office Classroom or Closet",
+    "market_shop_id": "1344635572",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:48:29.510Z",
+    "query_index": 2,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "布质多袋悬挂结构待实物确认；口袋尺寸适配A4需测量",
+    "verification_focus": "仅空整理袋；不附书籍，不沿用内衣收纳不同规格销量",
+    "price_raw": 99,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 494,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Allan",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 9,
+    "name": "桌面穿线孔盖",
+    "priority": "暂缓优先级",
+    "market_id": "25286970958",
+    "market_url": "https://shopee.ph/product/1157080722/25286970958",
+    "market_title": "ABS Table Grommet Office Hardware Matt Rectangle Wire Cable Grommet Square Table Desk Grommet",
+    "market_shop_id": "1157080722",
+    "market_shop_type": "本土店",
+    "observed_at": "2026-09-11T13:49:09.303Z",
+    "query_index": 4,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "矩形ABS桌面孔盖；开孔尺寸与安装结构待确认",
+    "verification_focus": "尺寸匹配投诉风险；每种开孔规格单独验证；只售被动孔盖",
+    "price_raw": 72,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 166,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Deli",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  },
+  {
+    "rank": 10,
+    "name": "编织式线材整理套管",
+    "priority": "暂缓优先级",
+    "market_id": "22135470144",
+    "market_url": "https://shopee.ph/product/969657190/22135470144",
+    "market_title": "20M Braid Sleeving PET Braided Expandable Auto Line Management Insulated Cable Sleeve Pipe Protective Sheath Tube Wire Wrap",
+    "market_shop_id": "969657190",
+    "market_shop_type": "跨境店",
+    "observed_at": "2026-09-11T13:49:09.303Z",
+    "query_index": 4,
+    "specification_status": "未完成准确SKU核实",
+    "specification_plan": "竞品标题20米PET编织结构；直径、截段及单位待确认",
+    "verification_focus": "承运/属性边界待核；仅考虑被动整理用途，绝缘阻燃等主张不采纳",
+    "price_raw": 313,
+    "price_currency": null,
+    "price_note": "PH查询价格说明仍标THB，未获独立币种证据；不得用于定价",
+    "sales_raw": 360,
+    "sales_calc_time": "1970-01-01",
+    "sales_window": null,
+    "sales_scope": "接口商品级月销量，未核实为目标SKU明确30天窗口",
+    "brand_raw": "Atlanta",
+    "brand_note": "仅作竞品研究；不得抄用品牌、商标或未授权图片",
+    "source_supply": null,
+    "supplier_hint": null,
+    "supply_match_status": "未取得同规格货源证据",
+    "profit_cny": null,
+    "margin_pct": null,
+    "billable_weight_g": null,
+    "dispatch_buffer_hours": null,
+    "complete_evidence": false,
+    "can_review_listing": false,
+    "status": "待补证",
+    "dimensions": {
+      "demand": {
+        "status": "unknown",
+        "score": null
+      },
+      "competition": {
+        "status": "unknown",
+        "score": null
+      },
+      "profit": {
+        "status": "unknown",
+        "score": null
+      },
+      "logistics": {
+        "status": "unknown",
+        "score": null
+      },
+      "supply": {
+        "status": "unknown",
+        "score": null
+      },
+      "compliance": {
+        "status": "unknown",
+        "score": null
+      }
+    },
+    "expansion": {
+      "status": "unverified",
+      "score": 0
+    },
+    "cash": {
+      "status": "unknown",
+      "available_cny": null,
+      "monthly_loss_cny": null
+    }
+  }
+]

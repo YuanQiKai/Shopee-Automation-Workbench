@@ -1,0 +1,257 @@
+[
+  {
+    "path": "G:\\Shopee\\物流手册.pdf",
+    "sha256": "5892b4554bf6cb0cab4284fe962d1224e94e63c978a51d66f8192347d1a2ace5",
+    "size": 6043121,
+    "pages": 153
+  },
+  {
+    "path": "G:\\Shopee\\菲律宾海运禁运.xlsx",
+    "sha256": "44f8a5347129be2f7026be5398800a5d34fd2db465444e607cff7e5b0fb63610",
+    "size": 269314,
+    "sheets": [
+      {
+        "name": "马来西亚-海运",
+        "rows": null,
+        "cols": null
+      },
+      {
+        "name": "台湾虾皮-海运",
+        "rows": null,
+        "cols": null
+      },
+      {
+        "name": "菲律宾-海运",
+        "rows": null,
+        "cols": null
+      },
+      {
+        "name": "新加坡-海运",
+        "rows": null,
+        "cols": null
+      },
+      {
+        "name": "工作表10",
+        "rows": null,
+        "cols": null
+      }
+    ]
+  },
+  {
+    "path": "G:\\Shopee\\常用表格\\跨境物流成本（藏价）计算工具 - V2.0 20260908.xlsx",
+    "sha256": "83314328953282739a45c3303d4d51ba5eb2a2f215c1496421fed1de4635b781",
+    "size": 31127946,
+    "sheets": [
+      {
+        "name": "运费变更目录",
+        "rows": 963,
+        "cols": 27
+      },
+      {
+        "name": "跨境物流成本（藏价）计算工具",
+        "rows": 2001,
+        "cols": 62
+      },
+      {
+        "name": "物流成本价格详解",
+        "rows": 1137,
+        "cols": 28
+      },
+      {
+        "name": "柬埔寨",
+        "rows": 3012,
+        "cols": 11
+      },
+      {
+        "name": "阿根廷",
+        "rows": 3012,
+        "cols": 8
+      },
+      {
+        "name": "新加坡",
+        "rows": 3012,
+        "cols": 36
+      },
+      {
+        "name": "新加坡-重货",
+        "rows": 3012,
+        "cols": 25
+      },
+      {
+        "name": "新加坡-海运",
+        "rows": 10012,
+        "cols": 11
+      },
+      {
+        "name": "马来西亚",
+        "rows": 10012,
+        "cols": 61
+      },
+      {
+        "name": "马来西亚-空运重货海运大件",
+        "rows": 10012,
+        "cols": 34
+      },
+      {
+        "name": "泰国",
+        "rows": 2012,
+        "cols": 45
+      },
+      {
+        "name": "泰国-大件",
+        "rows": 10012,
+        "cols": 26
+      },
+      {
+        "name": "越南",
+        "rows": 23541,
+        "cols": 57
+      },
+      {
+        "name": "越南-重货",
+        "rows": 3012,
+        "cols": 29
+      },
+      {
+        "name": "菲律宾",
+        "rows": 5013,
+        "cols": 54
+      },
+      {
+        "name": "Copy of 菲律宾",
+        "rows": 5013,
+        "cols": 54
+      },
+      {
+        "name": "菲律宾-重货",
+        "rows": 3013,
+        "cols": 29
+      },
+      {
+        "name": "台湾虾皮普货",
+        "rows": 3012,
+        "cols": 42
+      },
+      {
+        "name": "台湾虾皮特货",
+        "rows": 3012,
+        "cols": 42
+      },
+      {
+        "name": "台湾-大件宅配",
+        "rows": 10012,
+        "cols": 26
+      },
+      {
+        "name": "台湾虾皮普货_old",
+        "rows": 3012,
+        "cols": 33
+      },
+      {
+        "name": "台湾虾皮特货_old",
+        "rows": 3012,
+        "cols": 31
+      },
+      {
+        "name": "台湾虾皮轻小件-20231130下线",
+        "rows": 3012,
+        "cols": 28
+      },
+      {
+        "name": "巴西",
+        "rows": 3012,
+        "cols": 29
+      },
+      {
+        "name": "汇率",
+        "rows": 3,
+        "cols": 2
+      },
+      {
+        "name": "印尼",
+        "rows": 3012,
+        "cols": 29
+      },
+      {
+        "name": "巴西-新(abandon)",
+        "rows": 3012,
+        "cols": 29
+      },
+      {
+        "name": "巴西-香港",
+        "rows": 3012,
+        "cols": 29
+      },
+      {
+        "name": "巴西-特貨",
+        "rows": 3012,
+        "cols": 29
+      },
+      {
+        "name": "墨西哥",
+        "rows": 3012,
+        "cols": 25
+      },
+      {
+        "name": "墨西哥-重货",
+        "rows": 3012,
+        "cols": 25
+      },
+      {
+        "name": "墨西哥-特货",
+        "rows": 3012,
+        "cols": 23
+      },
+      {
+        "name": "墨西哥-香港",
+        "rows": 3012,
+        "cols": 24
+      },
+      {
+        "name": "智利",
+        "rows": 3012,
+        "cols": 27
+      },
+      {
+        "name": "哥伦比亚",
+        "rows": 3012,
+        "cols": 27
+      },
+      {
+        "name": "哥伦比亚特货",
+        "rows": 3012,
+        "cols": 16
+      },
+      {
+        "name": "波兰",
+        "rows": 10527,
+        "cols": 30
+      },
+      {
+        "name": "波兰- 敏感货",
+        "rows": 3012,
+        "cols": 23
+      },
+      {
+        "name": "西班牙",
+        "rows": 3013,
+        "cols": 28
+      },
+      {
+        "name": "法国",
+        "rows": 3012,
+        "cols": 25
+      },
+      {
+        "name": "Linked Hiddenfee",
+        "rows": 1018,
+        "cols": 27
+      },
+      {
+        "name": "Linked MYESF",
+        "rows": 49,
+        "cols": 13
+      }
+    ]
+  }
+]

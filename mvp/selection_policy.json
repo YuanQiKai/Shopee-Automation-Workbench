@@ -1,0 +1,27 @@
+{
+  "version": "PH-NOSTOCK-2026-09-10.1",
+  "label": "菲律宾跨境无库存 · 上架测试门槛 v1",
+  "basis": "店主资金2万元、每天2–3小时、不囤货的试行经营阈值；不是平台标准或盈利保证。用首批28天数据复盘后再版本化调整。",
+  "thresholds": {
+    "sampleMin": 10, "shopsMin": 5, "sellingShopsMin": 3,
+    "salesPerShopMin": 30, "sampleSalesMin": 300, "crossBorderShopsMin": 2,
+    "salesAgeDaysMax": 14, "marketProofAgeDaysMax": 7,
+    "top3ShareMaxPct": 70, "pricePremiumMaxPct": 10,
+    "marginMinPct": 20, "profitMinCNY": 15, "stressProfitMinCNY": 0,
+    "billableWeightMaxG": 500, "logisticsShareMaxPct": 25, "dispatchBufferHours": 24,
+    "quoteAgeHoursMax": 24, "leadHoursMax": 48, "stockSalesMin": 10,
+    "cashCycleDays": 28, "cashUtilizationMaxPct": 80,
+    "reserveMinCNY": 5000, "monthlyLossMaxCNY": 4000,
+    "scoreMin": 75
+  },
+  "dimensions": [
+    {"id":"demand","label":"市场需求","weight":20,"rule":"至少10个同规格商品、5家独立店铺；同一明确30天窗口结束距今≤14天；样本销量合计≥300件；至少3家店各≥30件。销量不能用累计值或整条多变体销量冒充。"},
+    {"id":"competition","label":"竞争空间","weight":15,"rule":"样本前三店销量占比≤70%；至少2家跨境店各≥30件/30天；计划买家到手价≤同规格跨境样本中位数×110%；至少1个经核实的差异点。集中度仅代表样本。"},
+    {"id":"profit","label":"完全成本利润","weight":25,"rule":"基准净利率≥20%、每单净利≥15元（与现有更严目标取高）；所有费用有证据，推广预算已纳入；采购+10%、全部物流+15%、汇率-5%、高档分期组合后净利≥0。"},
+    {"id":"logistics","label":"物流履约","weight":10,"rule":"包装计费重量≤500g；国内运费+云仓+包材+卖家国际物流≤商品净收入25%；备货+国内运输+仓处理+24小时缓冲≤平台交运时限；可承运已确认。"},
+    {"id":"supply","label":"供应稳定","weight":15,"rule":"准确SKU支持出单单件代发；MOQ不得迫使囤货；报价库存24小时内复核；可供≥10个销售单元及计划承诺数量；备货≤48小时；样品/有记录验货、无不符替换、退换责任与凭证条件确认。"},
+    {"id":"compliance","label":"合规与素材","weight":10,"rule":"店主全部禁做清单逐项排除；类目、承运、商品事实、资质、商标/外观与图片使用权全部通过。任何未知待补证，明确不通过则拒绝。"},
+    {"id":"expansion","label":"复购与扩展","weight":5,"rule":"非硬门槛：有依据的适配补充件/耗材复购机会2分，同客群至少3个不同SPU扩展机会2分，已核实有利润的套装机会1分；没有证据不加分，不编造复购率。"}
+  ],
+  "cashRule": "另设资金硬门槛：保护应急金≥5000元；当月亏损<4000元；按28天计算新增订单采购及全部非采购成本保守占资≤已核实可用现金80%，并通过原有库存/承诺资金检查。只计算，不自动预留资金。"
+}

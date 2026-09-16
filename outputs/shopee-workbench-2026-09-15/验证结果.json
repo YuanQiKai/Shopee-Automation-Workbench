@@ -1,0 +1,15 @@
+{
+  "source_date": "2026-09-15",
+  "candidates": 22,
+  "suppliers": 2,
+  "sku_records": 38,
+  "eligible": 0,
+  "sls_weight_bands": 5000,
+  "sea_list_records": 279,
+  "excel_sheets": 10,
+  "real_database": "PostgreSQL 17",
+  "task_queue": "Temporal completed real recalculate job",
+  "tests": "20 application checks + 13 standalone Skill fee checks",
+  "ai_paid_calls": 0,
+  "local_sorftime_credentials_configured": false
+}
