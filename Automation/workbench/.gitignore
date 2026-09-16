@@ -1,0 +1,13 @@
+.runtime/
+.venv/
+frontend/node_modules/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+data/private/
+data/postgres/
+data/temporal.db*
+data/logs/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/exports/

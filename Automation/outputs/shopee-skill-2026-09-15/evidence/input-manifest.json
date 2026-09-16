@@ -1,0 +1,22 @@
+[
+  {
+    "source": "outputs\\shopee-plan-2026-09-10\\raw-observations.json",
+    "snapshot": "evidence\\2026-09-10-raw-observations.json",
+    "sha256": "76e3abae9337e4faebe3c3f92bb897319ad5440fc718db349ef5db6d7097f1cc"
+  },
+  {
+    "source": "outputs\\shopee-plan-2026-09-10\\candidates.json",
+    "snapshot": "evidence\\2026-09-10-candidates.json",
+    "sha256": "fb5b398d849840de62cceae6355edacaf0a31604e79d174552e70a20bb28171d"
+  },
+  {
+    "source": "outputs\\shopee-daily-2026-09-11\\raw-observations.json",
+    "snapshot": "evidence\\2026-09-11-raw-observations.json",
+    "sha256": "608703d3e248fd455b597b7e3d27393af27e8f39517ed54dd74144ded4263a1e"
+  },
+  {
+    "source": "outputs\\shopee-daily-2026-09-11\\candidates.json",
+    "snapshot": "evidence\\2026-09-11-candidates.json",
+    "sha256": "c456873955843393519c98f7babf999e77575943e981328967dfdee4e75f3b01"
+  }
+]

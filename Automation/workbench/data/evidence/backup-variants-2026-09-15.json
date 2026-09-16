@@ -1,0 +1,16 @@
+{
+  "tool": "ali1688_product_variations",
+  "arguments": {
+    "product_id": "705110577312"
+  },
+  "captured_date": "2026-09-15",
+  "time_precision": "date",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"doc\":{\"sku_id\":\"Unique SKU (variation) identifier.\",\"sku_name\":\"SKU name, usually composed of spec attributes (e.g. color + capacity).\",\"price\":\"SKU display price (in CNY).\",\"offer_price\":\"SKU actual offer price (in CNY).\",\"stock\":\"SKU stock quantity.\",\"width\":\"Package width (in cm, 0 means not filled in).\",\"height\":\"Package height (in cm, 0 means not filled in).\",\"length\":\"Package length (in cm, 0 means not filled in).\",\"weight\":\"Package weight (in kg).\",\"pkg_size_source\":\"Source of package size/weight data (e.g. \\\"filled in by merchant\\\").\"},\"data\":[{\"sku_id\":\"5135629623437\",\"sku_name\":\"细网>20x30cm\",\"price\":3.58,\"offer_price\":4.0,\"stock\":4625,\"width\":8.0,\"height\":1.0,\"length\":12.0,\"weight\":0.01,\"pkg_size_source\":\"商家自填\"},{\"sku_id\":\"5135629623438\",\"sku_name\":\"细网>30x40cm\",\"price\":4.58,\"offer_price\":5.0,\"stock\":35112,\"width\":8.0,\"height\":1.0,\"length\":12.0,\"weight\":0.02,\"pkg_size_source\":\"商家自填\"},{\"sku_id\":\"5135629623439\",\"sku_name\":\"细网>40x50cm\",\"price\":4.98,\"offer_price\":5.0,\"stock\":39029,\"width\":8.0,\"height\":1.2,\"length\":12.0,\"weight\":0.03,\"pkg_size_source\":\"商家自填\"},{\"sku_id\":\"5135629623440\",\"sku_name\":\"细网>50x60cm\",\"price\":5.08,\"offer_price\":5.0,\"stock\":57388,\"width\":10.0,\"height\":1.0,\"length\":12.0,\"weight\":0.04,\"pkg_size_source\":\"商家自填\"},{\"sku_id\":\"5135629623441\",\"sku_name\":\"细网>60x60cm\",\"price\":5.48,\"offer_price\":5.0,\"stock\":55877,\"width\":12.0,\"height\":1.0,\"length\":12.0,\"weight\":0.05,\"pkg_size_source\":\"商家自填\"},{\"sku_id\":\"5135629623442\",\"sku_name\":\"细网>文胸袋\",\"price\":5.4,\"offer_price\":5.0,\"stock\":61738,\"width\":12.0,\"height\":1.0,\"length\":12.0,\"weight\":0.02,\"pkg_size_source\":\"商家自填\"}]}"
+      }
+    ]
+  }
+}

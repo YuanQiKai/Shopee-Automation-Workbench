@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-14",
+  "triggeredAt": "2026-09-14T14:33:51.117Z",
+  "policyVersion": "PH-NOSTOCK-2026-09-10.1",
+  "status": "source_quota_exhausted",
+  "queryAttempts": 1,
+  "successfulQueries": 0,
+  "newRawMarketRecords": 0,
+  "newCandidates": 0,
+  "completeEvidence": 0,
+  "listingEligible": 0,
+  "published": 0,
+  "historicalCandidateCount": 22,
+  "targetCandidates": 10,
+  "targetMet": false,
+  "reason": "Sorftime首个查询返回：MCP使用次数已达到上限，请升级您的套餐",
+  "nextStep": "由用户在Sorftime正常账户界面确认额度恢复情况；额度恢复后再执行新数据调研。未充值、升级套餐或更换凭据。",
+  "generatedAt": "2026-09-14T14:35:38.714Z"
+}

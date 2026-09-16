@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "daily-selection",
+      "title": "9月11日：10款待补证候选，0款可进入上架审核",
+      "queries": [
+        {
+          "id": "candidate-review",
+          "source": {
+            "label": "Shopee PH / Sorftime当日查询",
+            "links": [
+              {
+                "label": "可重复使用粘扣理线带套装",
+                "url": "https://shopee.ph/product/264585346/20569033063"
+              },
+              {
+                "label": "网眼拉链旅行收纳包",
+                "url": "https://shopee.ph/product/1229056552/25525886150"
+              },
+              {
+                "label": "五合一可折叠裤架",
+                "url": "https://shopee.ph/product/998991383/16595257849"
+              }
+            ],
+            "caveats": [
+              "可审计样本为4次关键词查询80行，按商品ID去重64个；不代表全市场。",
+              "全部搜索销量日期为1970-01-01，PH价格字段说明标THB；利润和同规格需求未成立。",
+              "10款为研究候选，尚未完成准确SKU匹配，不等于已验证可售商品。"
+            ],
+            "filters": [
+              "站点：PH",
+              "关键词接口页码：1"
+            ],
+            "executedAt": "2026-09-11T13:48:14.425Z"
+          },
+          "columns": [
+            {
+              "field": "product",
+              "label": "候选"
+            },
+            {
+              "field": "result",
+              "label": "结论"
+            }
+          ],
+          "rows": [
+            {
+              "product": "可重复使用粘扣理线带套装",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "网眼拉链旅行收纳包",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "五合一可折叠裤架",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "双层线材旅行收纳包",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "便携首饰分格收纳盒",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "门背免打孔挂钩架",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "十夹式小件晾晒衣架",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "悬挂文件分袋整理袋",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "桌面穿线孔盖",
+              "result": "待补证；未进入上架审核"
+            },
+            {
+              "product": "编织式线材整理套管",
+              "result": "待补证；未进入上架审核"
+            }
+          ]
+        },
+        {
+          "id": "single-detail",
+          "source": {
+            "label": "理线带商品详情与趋势",
+            "links": [
+              {
+                "label": "Home_Lifestyle.ph理线带",
+                "url": "https://shopee.ph/product/264585346/20569033063"
+              }
+            ],
+            "caveats": [
+              "149为商品级原始滚动月销量；不是已核实目标SKU的30天销量。",
+              "数据截至2026-09-08，未覆盖完整请求区间至9月11日。"
+            ]
+          },
+          "columns": [
+            "date",
+            "raw_sales"
+          ],
+          "rows": [
+            {
+              "date": "2026-09-08",
+              "raw_sales": 149
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
